@@ -55,22 +55,67 @@
 }
 
 .test {
-    display: grid;
-    grid-template-columns: auto, 1fr;
-    grid-template-rows: 1fr, 1fr;
+    display: flex;
+    gap: 15vw;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    height: auto;
+    height: fit-content;
     gap: 0.5vw;
     padding: 0.5vw;
-    background-color: var(--orange);
+    color: whitesmoke;
+    background-color: var(--blue);
+}
+
+.mail {
+    color: whitesmoke;
+}
+
+.mail:hover {
+    color: rgb(44, 44, 255);
 }
 
 .contact-title {
     display: flex;
     justify-content: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.skills-title {
+    display: flex;
+    justify-content: center;
+}
+
+.hard-skills {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vw;
+    width: 15vw;
+    background-color: var(--orange);
+}
+
+.jsp {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vw;
+    width: 15vw;
+    margin-left: 10vw;
+    background-color: var(--orange);
+}
+
+.soft-skills {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vw;
+    width: 15vw;
+    margin-left: 5vw;
+    background-color: var(--orange);
 }
