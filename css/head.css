@@ -1,0 +1,34 @@
+.head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10vw;
+}
+
+.picture {
+    display: flex;
+    height: 9vw;
+    width: 9vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name {
+    display: flex;
+    font-size: 5vw;
+    width: fit-content;
+}
+
+.head-color {
+    display: flex;
+    width: 100%;
+    background-color: var(--blue);
+}
+
+.post {
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    color: whitesmoke;
+    background-color: var(--blue);
+}

@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/column1.css">
+    <link rel="stylesheet" href="css/column2.css">
+    <link rel="stylesheet" href="css/column3.css">
+    <link rel="stylesheet" href="css/part1.css">
+    <link rel="stylesheet" href="css/part2.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,15 +25,111 @@
 <body>
     <div class="page">
 
-        <div class="title">
+        <div class="head">
             <img class="picture" src="boibokou.PNG">
             <h1 class="name">Killian Hoarau</h1>
-            <div class="title-color"></div>
+            <div class="head-color"></div>
         </div>
 
-        <div class="title-post">Développeur en formation – recherche alternance</div>
+        <div class="post">Développeur en formation – recherche alternance</div>
 
-        <div class="test">
+        <div class="content">
+
+            <!-- first column -->
+            <div class="column1">
+
+                <div class="contact">
+                    <h2 class="contact-title">Contact</h2>
+                    <a class="mail" href="mailto:k.hoarau27400@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        k.hoarau27400@gmail.com
+                    </a>
+
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        06 33 04 81 19
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-map-pin"></i>
+                        27400 Terres de Bord
+                    </p>
+
+                    <h2 class="contact-title">Informations</h2>
+                    <p>
+                        <i class="fa-solid fa-car-side"></i>
+                        Permis B + Voiture
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-language"></i>
+                        Anglais: Courant
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-calendar"></i>
+                        04/10/2005
+                    </p>
+                </div>
+
+                <div class="hobbies">
+                    <p>Les jeux video</p>
+                    <p>Les échecs</p>
+                    <p>Le dessin</p>
+                    <p>Le sport (vélo, escalade)</p>
+                </div>
+
+            </div>
+
+            <!-- second column -->
+            <div class="column2">
+
+                <div class="soft-skills">
+                    <h2 class="skills-title">Soft Skills / Savoir Être</h2>
+                    <p>
+                        <strong>Adaptabilité</strong>: Je suis capable de comprendre rapidement les bases de nouvelles
+                        technologies
+                        et de m'adapter à différents environnements de travail.
+                    </p>
+                    <p>
+                        <strong>Curiosité</strong>: Je veux savoir comment les choses fonctionnent, et n'hésite pas
+                        à faire des recherches pour en comprendre le fonctionnement.
+                    </p>
+                </div>
+
+                <div class="intro">
+                    <h2 class="intro-title">A propos de moi</h2>
+                    <p>
+                        Actuellement en formation de dévloppeur full-stack dans l'école Zone01,
+                        je suis à la recherche d'une alternance afin de mettre mes compétences acquises
+                        en formation en pratique, et progresser dans le vaste monde du développement informatique.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- third column -->
+            <div class="column3">
+
+                <div class="hard-skills">
+                    <h2 class="skills-title">Hard Skills</h2>
+                    <p>Golang</p>
+                    <p>JavaScript</p>
+                    <p>HTML / CSS</p>
+                    <p>Python</p>
+
+                    <h2 class="skills-title">Other Skills</h2>
+                    <p>Git / Github</p>
+                    <p>Docker</p>
+                    <p>SQLite</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="part1">
+
             <div class="contact">
                 <h2 class="contact-title">Contact</h2>
                 <a class="mail" href="mailto:k.hoarau27400@gmail.com">
@@ -62,14 +164,27 @@
                 </p>
             </div>
 
+            <div class="intro">
+                <h2 class="intro-title">A propos de moi</h2>
+                <p>
+                    Actuellement en formation de dévloppeur full-stack dans l'école Zone01,
+                    je suis à la recherche d'une alternance afin de mettre mes compétences acquises
+                    en formation en pratique, et progresser dans le vaste monde du développement informatique.
+                </p>
+            </div>
+
             <div class="skills">
 
-                <div>
-                    <h2>A propos de moi</h2>
+                <div class="soft-skills">
+                    <h2 class="skills-title">Soft Skills / Savoir Être</h2>
                     <p>
-                        Actuellement en formation de dévloppeur full-stack dans l'école Zone01 à Rouen, 
-                        je suis à la recherched'une alternance afin de mettre mes compétences acquises 
-                        en formation, et progresser dans le vaste monde du dévloppement informatique.
+                    <h3>Adaptabilité:</h3> Je suis capable de comprendre rapidement les bases de nouvelles
+                    technologies
+                    et de m'adapter à différents environnements de travail.
+                    </p>
+                    <p>
+                    <h3>Curiosité:</h3> Je veux savoir comment les choses fonctionnent, et n'hésite pas
+                    à faire des recherches pour en comprendre le fonctionnement.
                     </p>
                 </div>
 
@@ -80,37 +195,40 @@
                     <p>HTML / CSS</p>
                     <p>Python</p>
                 </div>
-                <div class="jsp">
-                    <h2 class="skills-title">Jsp</h2>
+
+                <div class="other-skills">
+                    <h2 class="skills-title">Other Skills</h2>
                     <p>Git / Github</p>
                     <p>Docker</p>
                     <p>SQLite</p>
                 </div>
-                <div class="soft-skills">
-                    <h2 class="skills-title">Soft Skills</h2>
-                    <p>Adaptabilité</p>
-                    <p>Curiosité</p>
-                </div>
+
             </div>
+
         </div>
 
-        <div class="projets">
-            <p>Forum</p>
-            <p>Groupie Tracker</p>
-            <p>Ascii Art Web</p>
-        </div>
+        <div class="part2">
 
-        <div class="experiences">
-            <div>Stage 1 ?</div>
-            <div>Stage 2 ?</div>
-        </div>
+            <div class="projects">
+                <h2 class="projects-title">Projets d'école</h2>
+                <p>Forum</p>
+                <p>Groupie Tracker</p>
+                <p>Ascii Art Web</p>
+            </div>
 
-        <div class="formations">
-            <p>Zone01: en cours</p>
-            <p>BTS Maintenance</p>
-            <p>Obtention de mon BTS maintenance à l'issue des 2 ans</p>
-            <p>Bac STI2D (Sciences et Technologies de l'Industrie et du Développement Durable)</p>
-            <p>Obtention de mon BAC Technologique</p>
+            <div class="experiences">
+                <p>Stage 1 ?</p>
+                <p>Stage 2 ?</p>
+            </div>
+
+            <div class="formations">
+                <p>Zone01: en cours</p>
+                <p>BTS Maintenance</p>
+                <p>Obtention de mon BTS maintenance à l'issue des 2 ans</p>
+                <p>Bac STI2D (Sciences et Technologies de l'Industrie et du Développement Durable)</p>
+                <p>Obtention de mon BAC Technologique</p>
+            </div>
+
         </div>
 
         <div class="hobbies">

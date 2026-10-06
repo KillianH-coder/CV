@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --blue: rgb(25, 95, 135);
+    --orange: rgb(240, 135, 45);
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
+    grid-template-columns: auto, 1fr, auto;
+    grid-template-rows: 1fr, 1fr; */
+    margin: 2.5vw;
+    padding: 2vw;
+    gap: 2.5vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
