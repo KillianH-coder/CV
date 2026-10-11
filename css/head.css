@@ -21,7 +21,7 @@
 
 .head-color {
     display: flex;
-    width: 100%;
+    width: 30%;
     background-color: var(--blue);
 }
 

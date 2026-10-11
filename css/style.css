@@ -26,7 +26,7 @@
     box-shadow: 0 0 20px black;
 }
 
-.content {
+.part1 {
     display: flex;
     justify-content: space-between;
     gap: 2vw;

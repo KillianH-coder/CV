@@ -15,7 +15,7 @@
     flex-direction: column;
     width: fit-content;
     height: fit-content;
-    gap: 0.5vw;
+    gap: 0.7vw;
     padding: 0.5vw;
     color: whitesmoke;
     background-color: var(--blue);
