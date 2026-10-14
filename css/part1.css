@@ -8,6 +8,19 @@
 .subtitle {
     display: flex;
     justify-content: center;
+    font-size: 2vw;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sub-subtitle {
+    font-size: 1vw;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .contact {
@@ -17,18 +30,42 @@
     flex-direction: column;
     width: 100%;
     height: auto;
-    gap: 0.7vw;
-    padding: 0.5vw;
+    gap: 1vw;
+    padding: 0.8vw;
     color: whitesmoke;
     background-color: var(--blue);
 }
 
 .mail {
     color: whitesmoke;
+    font-size: 1.1vw;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
 }
 
 .mail:hover {
-    color: rgb(44, 44, 255);
+    color: rgb(20, 20, 255);
+}
+
+.github {
+    color: whitesmoke;
+    font-size: 1.1vw;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+}
+
+.github:hover {
+    color: rgb(20, 20, 255);
 }
 
 .hobbies {
@@ -39,7 +76,7 @@
     width: 100%;
     height: auto;
     gap: 0.7vw;
-    padding: 0.5vw;
+    padding: 0.8vw;
     background-color: var(--orange);
 }
 
@@ -47,7 +84,8 @@
     grid-column: 2 / 4;
     display: flex;
     flex-direction: column;
-    padding: 0.5vw;
+    text-align: justify;
+    padding: 0.8vw;
     gap: 0.5vw;
     width: 100%;
     height: fit-content;
@@ -63,10 +101,11 @@ p strong {
     grid-row: 2;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: justify;
     gap: 0.5vw;
-    padding: 0.5vw;
-    margin: 0 10vw;
+    padding: 0.8vw;
+    margin: 0 8vw;
 }
 
 .hard-skills {
@@ -75,9 +114,20 @@ p strong {
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    padding: 0.5vw;
+    padding: 0.8vw;
+    gap: 1vw;
     width: 15vw;
     background-color: var(--orange);
+}
+
+.exp-title {
+    color: whitesmoke;
+    background-color: var(--blue);
+    font-size: 1.5vw;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .experiences {
@@ -86,7 +136,7 @@ p strong {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 0.5vw;
+    padding: 0.8vw;
     gap: 0.7vw;
     color: whitesmoke;
     background-color: var(--blue);

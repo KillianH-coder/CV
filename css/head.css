@@ -1,38 +1,53 @@
 .head {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     gap: 10vw;
 }
 
 .picture {
     display: flex;
-    height: 9vw;
-    width: 9vw;
+    height: 10vw;
+    width: 10vw;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .name {
     display: flex;
-    font-size: 5vw;
     width: fit-content;
+    font-size: 6vw;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
-.head-color {
+.portfolio {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3vw;
-    width: 30%;
+    text-align: center;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
     color: whitesmoke;
     background-color: var(--blue);
+    font-size: 3vw;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .post {
     display: flex;
     justify-content: center;
-    font-size: 3vw;
     color: whitesmoke;
     background-color: var(--blue);
+    font-size: 3vw;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }

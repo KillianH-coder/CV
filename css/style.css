@@ -1,15 +1,11 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 }
 
 :root {
-    --blue: rgb(25, 95, 135);
-    --orange: rgb(240, 135, 45);
+    --blue: rgb(30, 100, 140);
+    --orange: rgb(240, 160, 80);
 }
 
 .page {
@@ -17,8 +13,19 @@
     flex-direction: column;
     margin: 2.5vw;
     padding: 2vw;
-    gap: 2.5vw;
+    gap: 3vw;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 0 0 20px black;
+}
+
+p {
+    font-size: 1.1vw;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
 }
