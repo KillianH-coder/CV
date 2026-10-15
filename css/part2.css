@@ -1,3 +1,20 @@
 .part2 {
     display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    gap: 5vw;
+    margin: 0 5vw;
+    /* color: whitesmoke;
+    background-color: var(--blue); */
+}
+
+.project {
+    padding: 2vw;
+    margin: 2vw;
 }
