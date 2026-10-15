@@ -1,20 +1,80 @@
 .part2 {
     display: flex;
     flex-direction: column;
-    gap: 3vw;
+}
+
+.project-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: whitesmoke;
+    background-color: var(--blue);
 }
 
 .projects {
     display: flex;
-    justify-content: space-between;
-    text-align: justify;
+    justify-content: center;
     gap: 5vw;
     margin: 0 5vw;
-    /* color: whitesmoke;
-    background-color: var(--blue); */
 }
 
 .project {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
     padding: 2vw;
     margin: 2vw;
+    gap: 0.5vw;
+}
+
+.white-link {
+    color: whitesmoke;
+}
+
+.white-link:hover {
+    color: rgb(20, 20, 255);
+}
+
+.black-link {
+    color: black;
+}
+
+.black-link:hover {
+    color: rgb(20, 20, 255);
+}
+
+#forum {
+    color: whitesmoke;
+    background-color: var(--blue);
+}
+
+#groupie {
+    background-color: var(--lightblue);
+}
+
+#atm {
+    color: whitesmoke;
+    background-color: var(--darkblue);
+}
+
+#tournament {
+    background-color: var(--lightblue);
+}
+
+#world-cup {
+    color: whitesmoke;
+    background-color: var(--darkblue);
+}
+
+#loto {
+    color: whitesmoke;
+    background-color: var(--blue);
+}
+
+#formations {
+    background-color: var(--lightblue);
 }

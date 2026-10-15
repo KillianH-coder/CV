@@ -44,12 +44,20 @@
     font-style: normal;
 }
 
+#link-portfolio {
+    color: whitesmoke;
+}
+
+#link-portfolio:hover {
+    color: rgb(20, 20, 255);
+}
+
 .post {
     display: flex;
     justify-content: center;
     color: whitesmoke;
     background-color: var(--blue);
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;

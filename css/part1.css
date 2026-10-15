@@ -36,7 +36,7 @@
     background-color: var(--blue);
 }
 
-.mail {
+#github {
     color: whitesmoke;
     font-size: 1.1vw;
     font-family: "Nunito Sans", sans-serif;
@@ -48,23 +48,7 @@
         "YTLC" 500;
 }
 
-.mail:hover {
-    color: rgb(20, 20, 255);
-}
-
-.github {
-    color: whitesmoke;
-    font-size: 1.1vw;
-    font-family: "Nunito Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100,
-        "YTLC" 500;
-}
-
-.github:hover {
+#github:hover {
     color: rgb(20, 20, 255);
 }
 
@@ -77,7 +61,7 @@
     height: auto;
     gap: 0.7vw;
     padding: 0.8vw;
-    background-color: var(--orange);
+    background-color: var(--lightblue);
 }
 
 .soft-skills {
@@ -89,7 +73,7 @@
     gap: 0.5vw;
     width: 100%;
     height: fit-content;
-    background-color: var(--orange);
+    background-color: var(--lightblue);
 }
 
 p strong {
@@ -117,12 +101,11 @@ p strong {
     padding: 0.8vw;
     gap: 1vw;
     width: 15vw;
-    background-color: var(--orange);
+    color: whitesmoke;
+    background-color: var(--blue);
 }
 
 .exp-title {
-    color: whitesmoke;
-    background-color: var(--blue);
     font-size: 1.5vw;
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
@@ -139,5 +122,5 @@ p strong {
     padding: 0.8vw;
     gap: 0.7vw;
     color: whitesmoke;
-    background-color: var(--blue);
+    background-color: var(--darkblue);
 }
