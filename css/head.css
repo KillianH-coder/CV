@@ -9,8 +9,8 @@
 .picture {
     grid-column: 1;
     display: flex;
-    height: 10vw;
-    width: 10vw;
+    height: 15vw;
+    width: 15vw;
     border-radius: 50%;
     object-fit: cover;
 }
